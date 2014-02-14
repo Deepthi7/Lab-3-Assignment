@@ -1,0 +1,35 @@
+<script src="http://maps.googleaps.com/maps/api/js?sensor=true">
+    
+</script>
+<div data-role="page" id="page1">
+    <div data-role="header">
+         <h1>Google Map Services and Weather services</h1>
+
+    </div>
+    <div data-role="content">
+        <p><a href="#Google map" data-role="button"> Map Directions 
+           </a>
+
+        </p> <a href="#Weather services" data-role="button"> Weather services</a>
+<input type="text" placeholder="something to store" id="inputString" />
+<h1 onclick="clearStorage()">clear storage</h1>
+<h1 onclick="saveStatusLocally()">store</h1>
+<h1 onclick="readStatus()">print</h1>
+<div id="write"></div>
+
+<div data-role="content">     
+          <p><a href="#ButtonEventPage" data-role="button">Transition to next page</a></p> 	               
+     </div>
+</div>
+
+
+<div data-role="page" id="ButtonEventPage">
+     <div data-role="header">
+     	  <a data-rel="back" data-icon="home">Home</a>
+          <h1>Page2</h1>
+     </div>
+    
+    <h1 onclick="clearStorage2()">clear storage</h1>
+<h1 onclick="readStatus2()">print</h1>
+<div id="write2"></div>
+</div>
